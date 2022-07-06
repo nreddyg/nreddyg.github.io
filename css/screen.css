@@ -81,19 +81,23 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em auto;
+  /* width: 42em; */
+  /* margin: 3em auto 2em auto; */
   line-height: 1.5em;
 }
 
 .title {
+  background-color: #000;
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 
   .site .title a {
-    color: #a00;
+    /* color: #a00; */
     text-decoration: none;
   }
 
